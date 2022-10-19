@@ -11,6 +11,9 @@
 		780AD78629000A7500C2952E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780AD78529000A7500C2952E /* ContentView.swift */; };
 		780AD78829000A7600C2952E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780AD78729000A7600C2952E /* Assets.xcassets */; };
 		780AD78B29000A7600C2952E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780AD78A29000A7600C2952E /* Preview Assets.xcassets */; };
+		780AD79229000AB800C2952E /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780AD79129000AB800C2952E /* MyProjectCard.swift */; };
+		780AD7942900105E00C2952E /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780AD7932900105E00C2952E /* MyBasicCard.swift */; };
+		780AD7962900180900C2952E /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780AD7952900180900C2952E /* MyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		780AD78529000A7500C2952E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		780AD78729000A7600C2952E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		780AD78A29000A7600C2952E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		780AD79129000AB800C2952E /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		780AD7932900105E00C2952E /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		780AD7952900180900C2952E /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				780AD78529000A7500C2952E /* ContentView.swift */,
 				780AD78729000A7600C2952E /* Assets.xcassets */,
 				780AD78929000A7600C2952E /* Preview Content */,
+				780AD79129000AB800C2952E /* MyProjectCard.swift */,
+				780AD7932900105E00C2952E /* MyBasicCard.swift */,
+				780AD7952900180900C2952E /* MyCard.swift */,
 			);
 			path = InterfaceWithSwiftUI;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780AD79229000AB800C2952E /* MyProjectCard.swift in Sources */,
 				780AD78629000A7500C2952E /* ContentView.swift in Sources */,
+				780AD7942900105E00C2952E /* MyBasicCard.swift in Sources */,
+				780AD7962900180900C2952E /* MyCard.swift in Sources */,
 				780AD78429000A7500C2952E /* InterfaceWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
